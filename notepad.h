@@ -1,0 +1,10 @@
+#pragma 
+#ifndef NOTEPAD_H
+#define NOTEPAD_H
+#include <string>
+
+void writeFile(std::string filename);
+void readFile(std::string filename);
+void appendFile(std::string filename);
+
+#endif
